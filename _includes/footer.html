@@ -2,13 +2,14 @@
 <section id="footer">
 	<div class="container">
 		<header class="major">
-			<h2>Get in touch</h2>
+			<h2>Contacto</h2>
 		</header>
-		<form action="https://formspree.io/{{ site.email }}" method="POST">
+		<form action="https://getform.io/f/392ded1f-e1b1-44b8-96c4-f1d9debe5cb7" method="POST">
 			<div class="row uniform">
-				<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-				<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Email" /></div>
-				<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+				<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Nombre" /></div>
+				<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" id="email" placeholder="Correo" /></div>
+				<div class="12u$"><textarea name="message" id="message" placeholder="Mensaje" rows="4"></textarea></div>
+				<div class="g-recaptcha" data-sitekey="6LfPyn8bAAAAAMMGnCX8TzIAyeC6zplxha85rjoi"></div>
 				<div class="12u$">
 					<ul class="actions">
 						<li><input type="submit" value="Enviar mensaje" class="special" /></li>
@@ -64,3 +65,4 @@
 <script src="{{ '/assets/js/util.js' | absolute_url }}"></script>
 <!--[if lte IE 8]><script src="{{ '/assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
 <script src="{{ '/assets/js/main.js' | absolute_url }}"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
