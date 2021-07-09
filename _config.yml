@@ -1,1 +1,21 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: Alberto R. León
+email: hola@mrleon.space
+description: Soluciones Editoriales y Creativas.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/intratextual/
+gitlab_url: https://gitlab.com/paratexto/
+googleplus_url:
+instagram_url: https://instagram.com/diosenfermo/
+linkedin_url: https://www.linkedin.com/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/intratextual/
+
+# Build settings
+markdown: kramdown
