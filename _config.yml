@@ -3,7 +3,7 @@ title: Alberto R. León
 email: hola@mrleon.space
 description: Soluciones Editoriales y Creativas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://mrleon.space" # the base hostname & protocol for your site
 
 # Social settings
 500px_url:
